@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, GradientText, Icon } from '../common/index.jsx';
 import { portfolioData } from '../../data/portfolio';
+import profileImage from '../../assets/Gemini_Generated_Image_5e778z5e778z5e77.png';
 
 const Hero = () => {
   const stats = portfolioData.hero.stats;
@@ -74,7 +75,7 @@ const Hero = () => {
               <div className="w-full h-full bg-app-bg flex items-center justify-center relative">
                 <div className="w-full h-full text-center">
                   <img 
-                    src="src/assets/Gemini_Generated_Image_5e778z5e778z5e77.png" 
+              src={profileImage} 
                     alt="Profile" 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
