@@ -1,7 +1,6 @@
 import React from 'react';
 import { Card, SectionTitle, GradientText } from '../common/index.jsx';
 import { portfolioData } from '../../data/portfolio';
-import aboutImage from '../../assets/Gemini_Generated_Image_pq8zs3pq8zs3pq8z.png';
 
 const About = () => {
   const { about } = portfolioData;
@@ -21,7 +20,7 @@ const About = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black z-10 pointer-events-none opacity-80" />
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_50%,black_100%)] z-10 pointer-events-none opacity-80" />
             <img 
-          src={aboutImage} 
+              src="/Gemini_Generated_Image_pq8zs3pq8zs3pq8z.png" 
               alt="About" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
             />
